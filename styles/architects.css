@@ -97,6 +97,23 @@ main >section{
 #quick-list{
     font-weight: 500;
 }
+/* some facts related styles */
+.fact-card{
+    border:1px solid #FF900E;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px; 
+    /* border radius disi karon round korar jonno  */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
 /* responsive media query 
 */
 @media screen and (max-width:576px) {
